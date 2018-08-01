@@ -6,10 +6,10 @@ No copyright. All open source. Clone and do whatever you want.
 
 Credits 
 -------
-Skills Icons downloaded from https://www.iconfinder.com and ofcourse Google!
-Google fonts for font family 'Quicksand' and 'Abel'
+Skills Icons downloaded from https://www.iconfinder.com and ofcourse Google!  
+Google fonts for font family 'Quicksand' and 'Abel'  
 
 Resources
 ---------
-CSS Reference : https://cssreference.io/
-CSS Tricks: https://css-tricks.com/
+CSS Reference : https://cssreference.io/  
+CSS Tricks: https://css-tricks.com/  
