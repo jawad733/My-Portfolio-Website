@@ -58,23 +58,12 @@ p {
 	padding: 0;
 	justify-content: flex-end;
 	flex-wrap: nowrap;
-	/*margin-right: 0%;*/
-	/*border: 1px solid black;*/
 	color: #666;
 	margin: 15px 0;
 }
 
-.navbar {
-	
-}
-
 .navbar li{
-	/*flex: 1;*/
 	text-align: center;
-}
-
-.navbar li:first-child {
-	 /*margin-left: auto;*/
 }
 
 .navbar li:hover {
@@ -101,19 +90,17 @@ p {
 	background-image: url(img/cover.jpg);
 	background-attachment: scroll;
 	background-size: cover;
-	/*background-repeat: repeat-x;*/
+	
 	background-position: 50% 20%;
 	background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url("img/cover.jpg") no-repeat 50% 20%;
 	background-size: cover;
 
-	/*position: relative;*/
 	max-height: 300px;
 	padding-top: 90px;
 }
 
 .profile-container {
 	width: 90%;
-	/*box-sizing: border-box;*/
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-right: auto;
@@ -130,17 +117,6 @@ p {
 .profile-inner {
 	display: flex;
 	align-items: center;
-	/*justify-content: center;*/
-}
-
-.profile-image {
-	/*background-image: url(img/2.jpeg);
-	background-size: cover;
-	background-position: center;*/
-	/*width: 200px;
-	height: 200px;*/
-	/*border-radius: 50%;
-	margin-right: 30px;*/
 }
 
 .profile-image > img {
@@ -161,7 +137,6 @@ p {
 	font-size: 3rem;
 	color: white;
 	text-shadow: 4px 4px #000000;
-	/*letter-spacing: 0px;*/
 	padding: 0;
 	margin: 0;
 	margin-top: 20px;
@@ -171,10 +146,6 @@ p {
 	font-size: 1.2rem;
 	margin: 20px 0;
 	padding: 0 8px;
-}
-
-.summary {
-
 }
 
 .summary-container {
@@ -195,8 +166,6 @@ p {
 }
 
 .skill-section {
-	/*background: rgb(34,193,195);
-	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);*/
 	background: rgb(238,174,202);
 	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 	padding-bottom: 30px; 
@@ -258,9 +227,6 @@ p {
 .skills > div > .logo img {
 	display: block;
 	position: absolute;
-	/*width: 250px;
-	height: 250px;*/
-	/*border-radius: 50%;*/
 	left: 50%;
 	position: absolute;
 	top: 50%;
@@ -383,9 +349,7 @@ p {
 .coming-soon > div {
 	padding: 5px;
 	border: 1px solid #000;
-	/*color: white;*/
 	border-radius: 5px;
-	/*background-color: green;*/
 }
 
 .coming-soon > h2 {
@@ -394,7 +358,6 @@ p {
 }
 
 .coming-soon > div > h3 {
-	/*color: white;*/
 	margin: 0;
 	padding: 0;
 	font-size: 1rem;
@@ -523,10 +486,6 @@ p {
 
 	html {
 		font-size: 18px;
-	}
-
-	.navbar-container > .navbar-header {
-		/*font-size: 0.65rem;*/
 	}
 
 	.profile-section {
