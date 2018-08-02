@@ -35,7 +35,7 @@ p {
 
 .navbar-container {
 	display: flex;
-	flex-wrap: nowrap;	
+	flex-wrap: wrap;	
 	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
@@ -57,7 +57,7 @@ p {
 	list-style: none;
 	padding: 0;
 	justify-content: flex-end;
-	/*flex-wrap: wrap;*/
+	flex-wrap: nowrap;
 	/*margin-right: 0%;*/
 	/*border: 1px solid black;*/
 	color: #666;
@@ -408,14 +408,6 @@ p {
 	filter: blur(5px);
 }
 
-/*.contact-container {
-	width: 90%;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}*/
-
 .contact-section {
 	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
 	background-blend-mode: multiply,multiply;
@@ -493,7 +485,6 @@ p {
 		flex: 0 1 100%;
 		display: flex;
 		flex-direction: column;
-		/*margin-right: 10px;*/
 	}
 
 	.profile-section {
@@ -505,13 +496,11 @@ p {
 		align-items: center;
 		justify-content: center;
 		margin-bottom: 0px;
-		/*min-height: 100%;*/
 	}
 
 	.profile-inner {
 		flex-direction: column;
 		width: 100%;
-		/*justify-content: center;*/
 	}
 
 	.profile-content > h1 {
